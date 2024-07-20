@@ -26,3 +26,6 @@ END_DATE = "2024-07-19"
 
 df_1h = upload_history(start_date=START_DATE, end_date=END_DATE, stock=STOCK, timeframes=TIMEFRAMES[0])
 df_10min = upload_history(start_date=START_DATE, end_date=END_DATE, stock=STOCK, timeframes=TIMEFRAMES[1])
+
+display(df_1h)
+display(df_10min)
